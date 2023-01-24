@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(81, 82, 76);
+}
+header nav{
+    width: 50%;
+    background-color: rgb(243, 183, 17);
+    margin: 0 auto;
+    padding: 1.3%;
+}
+header nav a{
+    margin-left: 18%;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(81, 82, 76);
+    border: 2px solid rgb(80, 8, 76);
+    border-radius: 25px;
+    padding: 3px;
+}
+
+a:hover {
+    color:  rgb(255, 137, 3);
+}
+a:active{
+    color: #0000FF
+}
+
+main{
+    background-image: radial-gradient(darkgray 65%, turquoise);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.image01{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 50%;
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(121, 10, 248);
+    text-decoration: underline;
+}
+
+h1:hover{
+    font-size: 100px;
+    color: brown;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+.image02{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-align: justify;
+    display: block;
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.button1 {
+    display: block;
+    background: linear-gradient(-30deg, #3d0b0b 50%, #2b0808 50%);
+    border: none;
+    color: #f7d4d4;
+    padding: 10px 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+
+section{
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+form input {
+height: 20px;
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+padding: 10px;
+}
+
+form button{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+font-size: x-large;
+font-family: serif;
+font-style: normal;
+font-weight: bolder;
+background-color: black;
+color: white;
+border: solid red;
+cursor: pointer;
+}
+footer{
+color: black;
+height: 50px;
+background-color: cadetblue;
+text-align: center;
+}
